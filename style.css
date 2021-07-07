@@ -29,12 +29,11 @@ h5{
 }
 .button{
    padding: 10px 20px;
-   background-color:rgb(180, 33, 180);
+   background-image: linear-gradient(orange, tomato);
    text-align: center;
    border-radius: 10px;
-   color:white;
    font-weight: bold;
-   
+   text-decoration: none;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -63,13 +62,13 @@ h5{
 }
 #border-gradient1{
     border-left: 7px solid;
-    border-image: linear-gradient(blue cyan);
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     
 }
 #border-gradient2{
     border-left: 7px solid;
-   
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     
 }
